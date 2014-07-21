@@ -1,5 +1,8 @@
     body {
         background: url("http://i.imgur.com/ue8A2CD.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;    
         background-size: cover;
     }
     a{
@@ -10,11 +13,22 @@
         font-size:200%;
     }
     .centerbox{
-        width:270px;
-        height:150px;
+        width:280px;
+        height:300px;
         position:absolute;
         left:50%;
         top:50%;
-        margin:-75px 0 0 -135px;
+        margin:-150px 0 0 -140px;
         text-align: center;
+        /*background-color: rgb(35, 35, 75); */
+    }
+    .content{
+        width:800px;
+        height:100%;
+        position:absolute;
+        left:50%;
+        top:0px;
+        margin:0 0 0 -400px;
+        text-align: center;
+        background-color: rgb(35, 35, 75); 
     }
