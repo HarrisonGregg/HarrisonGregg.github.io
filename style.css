@@ -1,0 +1,21 @@
+    body {
+        background: url("http://i.imgur.com/ue8A2CD.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        font-family:Courier;
+        font-size:200%;
+    }
+    .centerbox{
+        width:270px;
+        height:150px;
+        position:absolute;
+        left:50%;
+        top:50%;
+        margin:-75px 0 0 -135px;
+        text-align: center;
+        
+    }
