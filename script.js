@@ -13,5 +13,9 @@ angular.module('app', ['ngRoute'])
 	.when('/', {
 		templateUrl: 'home.html',
 		controller: 'HomeController'
+	})
+	.when('/about', {
+		templateUrl: 'content.html',
+		controller: 'HomeController'
 	});
 });
