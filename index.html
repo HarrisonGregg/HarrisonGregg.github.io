@@ -1,28 +1,13 @@
 <!DOCTYPE html>
-<html data-ng-app="">
+<html>
 <head>
     <title>harrisongregg.com</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.16/angular-route.js"></script>
+    <script src="script.js"></script>
 </head>
-<body>
-    <div class="centerbox" data-ng-controller="SimpleController">
-        <a style="font-size:150%;">Welcome to harrisongregg.com</a>
-        <br>
-        <div data-ng-repeat="link in links"> 
-            <br>
-            <a href="#/{{link.url}}">{{link.text}}</a>
-        </div>
-    </div>
-    <script>
-        function SimpleController($scope) {
-            $scope.links = [
-                {text:'About Me',url:'about'},
-                {text:'Projects',url:'projects'},
-                {text:'Blog',url:'blog'}
-            ];
-        }
-    </script>
-    <script type="text/javascript"
-    src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<body ng-app="app">
+    <div ng-view></div>
 </body>
 </html>
