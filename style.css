@@ -20,6 +20,24 @@
         font-family:Courier;
         font-size:200%;
         font-weight:normal;
+        text-align: center;
+    }
+    td{
+        text-decoration: none;
+        color: white;
+        text-shadow: black 0.05em 0.05em 0.1em;
+        font-family:Courier;
+        font-size:150%;
+        font-weight:normal;
+        text-align: center;
+    }
+    p{
+        text-decoration: none;
+        color: white;
+        text-shadow: black 0.05em 0.05em 0.1em;
+        font-family:Courier;
+        font-size:100%;
+        text-indent: 20px;
     }
     hr{
         height: 12px;
@@ -43,8 +61,8 @@
         left:50%;
         top:15%;
         margin:0 0 0 -400px;
-        text-align: center;
         background-color: rgb(40, 47, 53); 
+        text-indent: 30px;
     }
     .x{
         width:30px;
@@ -54,7 +72,6 @@
         top:15%;
         margin:0 0 0 -400px;
         text-align: center;
-        background-color: rgb(40, 47, 53); 
     }
     #backgroundlink {
         width: 100%;
