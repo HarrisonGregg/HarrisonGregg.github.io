@@ -1,15 +1,32 @@
 <div class="content" >
 	<h1>Projects</h1>
 	<hr>
-	<table>
+<!-- 	<table style="background-color:rgb(128,128,128);">
 		<tr>
-		  <td style="background-color:rgb(128,128,128);">Spectracer<br>the leet</td>
+		  <td>Spectracer<br>the leet</td>
 		</tr>
 		<tr>
 		  <td><img src="spectracer.png"></td>
 		</tr>
 	</table>
+ -->
+	<p>Search: <input type="text" ng-model="nameText" /></p>
+	<div>
+		
+	<div class="contentScrollBox">		
+    <div data-ng-repeat="project in projects | filter:nameText | orderBy:'title'"> 
+    	<a href="#/projects/{{project.url}}">
+		 <div class="project" style="background-color:{{project.color}}">
+		 	<div id="project-text">
+		 	<h2>{{project.title}}</h2>
+		 	</div>
+		 	<img src="projects/images/{{project.image}}" width="118" height="118">
+		 </div>
+		</a>
+	</div>
+    </div>
+	</div>
 </div>
 <div class="x">
-	<a href="#/">x</a>
+	<a href="#/" class="homelink">x</a>
 </div>
