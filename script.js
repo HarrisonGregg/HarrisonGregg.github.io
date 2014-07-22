@@ -38,6 +38,10 @@ angular.module('app', ['ngRoute'])
 		templateUrl: 'blog.html',
 		controller: 'HomeController'
 	})
+	.when('/projects/:projectId', {
+		templateUrl: 'project.html',
+		controller: 'HomeController'
+	})
 	.otherwise({
 		redirectTo:'/'
 	});
