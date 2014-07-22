@@ -1,9 +1,10 @@
     body {
-        background: url("http://i.imgur.com/ue8A2CD.png") no-repeat center center fixed;
+        background: url("http://i.imgur.com/ue8A2CD.png") no-repeat fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;    
         background-size: cover;
+        background-position: center center; 
     }
     a{
         text-decoration: none;
@@ -11,6 +12,19 @@
         text-shadow: black 0.1em 0.1em 0.2em;
         font-family:Courier;
         font-size:200%;
+    }
+    h1{
+        text-decoration: none;
+        color: white;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        font-family:Courier;
+        font-size:200%;
+        font-weight:normal;
+    }
+    hr{
+        height: 12px;
+        border: 0;
+        box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
     }
     .centerbox{
         width:280px;
@@ -20,15 +34,34 @@
         top:50%;
         margin:-150px 0 0 -140px;
         text-align: center;
-        /*background-color: rgb(35, 35, 75); */
+        background-color: rgb(40, 47, 53); 
     }
     .content{
         width:800px;
-        height:100%;
+        height:70%;
         position:absolute;
         left:50%;
-        top:0px;
+        top:15%;
         margin:0 0 0 -400px;
         text-align: center;
-        background-color: rgb(35, 35, 75); 
+        background-color: rgb(40, 47, 53); 
+    }
+    .x{
+        width:30px;
+        height:20px;
+        position:absolute;
+        left:50%;
+        top:15%;
+        margin:0 0 0 -400px;
+        text-align: center;
+        background-color: rgb(40, 47, 53); 
+    }
+    #backgroundlink {
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        left:50%;
+        top:50%;
+        margin:-50% 0 0 -50%;
+        display: block;
     }

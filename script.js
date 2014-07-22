@@ -15,7 +15,18 @@ angular.module('app', ['ngRoute'])
 		controller: 'HomeController'
 	})
 	.when('/about', {
-		templateUrl: 'content.html',
+		templateUrl: 'about.html',
 		controller: 'HomeController'
+	})
+	.when('/projects', {
+		templateUrl: 'projects.html',
+		controller: 'HomeController'
+	})
+	.when('/blog', {
+		templateUrl: 'blog.html',
+		controller: 'HomeController'
+	})
+	.otherwise({
+		redirectTo:'/'
 	});
 });
