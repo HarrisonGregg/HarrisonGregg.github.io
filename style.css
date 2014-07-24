@@ -92,8 +92,8 @@ hr{
     height:20px;
     position:absolute;
     left:50%;
-    top:15%;
-    margin:0 0 0 -400px;
+    top:50%;
+    margin:-325px 0 0 -400px;
     text-align: center;
 }
 #backgroundlink {
