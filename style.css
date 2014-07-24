@@ -1,4 +1,4 @@
-body {
+.background {
     background: url("http://i.imgur.com/ue8A2CD.png") no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -51,10 +51,15 @@ h2{
     margin-top: 5px;
 }
 hr{
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
-}
+    /*height: 12px;*/
+    /*border: 0;*/
+    /*box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);*/
+	border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
 .centerbox{
     width:280px;
     height:300px;
