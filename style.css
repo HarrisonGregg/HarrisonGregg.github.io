@@ -96,7 +96,10 @@ hr{
     margin-bottom:50px;
     background-color: rgb(40, 47, 53);
 }
-@media (min-width: 800px) and (orientation:landscape) {
+@media screen
+              and (min-width: 800px)
+              and (max-resolution: 200dpi)
+              and (orientation:landscape) {
   .content{
       width:800px;
       height:650px;
