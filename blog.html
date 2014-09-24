@@ -8,7 +8,7 @@
 	<div>
 
 	<div class="contentScrollBox">
-    <div data-ng-repeat="post in posts | filter:nameText | orderBy:'datestamp'">
+    <div data-ng-repeat="post in posts | filter:nameText | orderBy:'datestamp':true">
     	<a href="#/blog/{{post.url}}">
 		 <div class="post">
 		 	<h2>{{post.title}}</h2>
