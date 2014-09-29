@@ -17,6 +17,13 @@ posts = [
 	{title: 'Senior Thesis: Blog, JIRA, and HRRC', 	url: 'post2',	date:'September 24, 2014', 	datestamp:'2014-09-24', description: "This past week, I've set up a basic version of my blog, so I can actually post these updates, I've started setting up JIRA to use for project organization, and I'm just waiting on someone to get back to me about the Human Research Review Committee guidelines I need to follow before I can send out my survey."},
 ];
 
+$(document).ready(function () {
+		$("#navbar li a").click(function(event) {
+				// check if window is small enough so dropdown is created
+				$("#nav-collapse").removeClass("in").addClass("collapse");
+		});
+});
+
 angular.module('app', ['ngRoute'])
 
 .controller('HomeController', ['$scope', '$route', function($scope, $route) {

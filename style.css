@@ -5,6 +5,9 @@ body {
 p {
   color: white;
 }
+.jumbotron .h1 {
+  font-size: 350%;
+}
 .project{
     width:120px;
     height:165px;
@@ -25,7 +28,6 @@ p {
 }
 .jumbotron{
   border-radius: 0px;
-
 }
 .body{
   background-color: rgb(40, 47, 53);
