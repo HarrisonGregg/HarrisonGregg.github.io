@@ -6,7 +6,7 @@
 	</div>
 </div>
 
-	<p>Search: <input type="text" ng-model="nameText" /></p>
+	<p>Search: <input type="text" ng-model="nameText" class="searchbox"/></p>
 	<div class="contentScrollBox">
 		<div data-ng-repeat="post in posts | filter:nameText | orderBy:'datestamp':true">
 			<a href="#/blog/{{post.url}}">
