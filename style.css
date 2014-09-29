@@ -1,76 +1,9 @@
-.background {
-    background: url("http://i.imgur.com/ue8A2CD.png") no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
+body {
+  padding-top: 50px;
+  min-height: 100%;
 }
-.homelink{
-    text-decoration: none;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-family:Courier;
-    font-size:200%;
-    font-weight:normal;
-}
-h1{
-    text-decoration: none;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-family:Courier;
-    font-size:200%;
-    font-weight:normal;
-    text-align: center;
-}
-td{
-    text-decoration: none;
-    color: white;
-    text-shadow: black 0.05em 0.05em 0.1em;
-    font-family:Courier;
-    font-size:150%;
-    font-weight:normal;
-    text-align: center;
-}
-p{
-    text-decoration: none;
-    color: white;
-    text-shadow: black 0.05em 0.05em 0.1em;
-    font-family:Courier;
-    font-size:100%;
-    text-indent: 20px;
-    width: 100%;
-    text-align: left;
-}
-h2{
-    text-decoration: none;
-    color: white;
-    text-shadow: black 0.05em 0.05em 0.1em;
-    font-family:Courier;
-    font-size:150%;
-    text-align: center;
-    font-weight:normal;
-    margin-top: 5px;
-}
-hr{
-    /*height: 12px;*/
-    /*border: 0;*/
-    /*box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);*/
-	border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
-.centerbox{
-    width:280px;
-    height:300px;
-    position:absolute;
-    left:50%;
-    top:50%;
-    margin:-150px 0 0 -140px;
-    text-align: center;
-    background-color: rgb(40, 47, 53);
+p {
+  color: white;
 }
 .project{
     width:120px;
@@ -80,85 +13,27 @@ hr{
     /*background-color: rgb(100, 47, 53); */
     float:left;
 }
-.post{
-    width:95%;
-    height:auto;
-    text-align: center;
-    margin:20px 17px 17px 20px;
-    background-color: rgb(100, 100, 100); 
-    float:left;
+.project-text {
+    height:40px;
+    top:-10px;
 }
-.contentScrollBox{
-    width:100%;
-    height:auto;
-    overflow: auto;
-    text-align:center;
+.intro-text {
+  padding: 40px 15px;
+  text-align: center;
+  /*color: rgb(255, 255, 255);*/
+  /*background-color: rgb(40, 47, 53);*/
 }
-.content{
-    width:100%;
-    height:auto;
-    min-height:650px;
-    max-width:800px;
-    position:absolute;
-    left:0px;
-    top:5%;
-    margin-bottom:50px;
-    background-color: rgb(40, 47, 53);
+.jumbotron{
+  border-radius: 0px;
+
 }
-@media screen
-              and (min-width: 800px)
-              and (max-resolution: 200dpi)
-              and (orientation:landscape) {
-  .content{
-      width:800px;
-      height:650px;
-      position:absolute;
-      left:50%;
-      top:50%;
-      margin:-325px 0 0 -400px;
-  }
-  .contentScrollBox{
-      width:800px;
-      height:500px;
-  }
-}
-.x{
-    width:30px;
-    height:20px;
-    position:absolute;
-    left:0px;
-    top:0px;
-    text-align: center;
+.body{
+  background-color: rgb(40, 47, 53);
+  min-height: 100%;
 }
 .centeredImage{
     text-align:center;
     margin-top:0px;
     margin-bottom:0px;
     padding:0px;
-}
-#backgroundlink {
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    left:50%;
-    top:50%;
-    margin:-50% 0 0 -50%;
-    display: block;
-}
-#project-text {
-    height:40px;
-    top:-10px;
-}
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }

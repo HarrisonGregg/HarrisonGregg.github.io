@@ -19,21 +19,16 @@ posts = [
 
 angular.module('app', ['ngRoute'])
 
-.controller('HomeController', function($scope) {
-    $scope.links = [
-        {text:'About Me',url:'about'},
-        {text:'Projects',url:'projects'},
-        {text:'Blog',url:'blog'}
-    ];
+.controller('HomeController', ['$scope', '$route', function($scope, $route) {
+    $scope.route = $route;
+		$scope.projects = projects;
+		$scope.posts = posts;
+}])
 
-    $scope.projects = projects;
-    $scope.posts = posts;
-
-})
-
-.controller('ProjectController', function($scope, $routeParams) {
+.controller('ProjectController', function($scope, $route, $routeParams) {
+	$scope.route = $route;
 	var i;
-    $scope.project = null;
+		$scope.project = null;
 	for(i = 0; i < projects.length; i++){
 		if(projects[i].url==$routeParams.projectId){
 			$scope.project = projects[i];
@@ -41,9 +36,10 @@ angular.module('app', ['ngRoute'])
 	}
 })
 
-.controller('BlogController', function($scope, $routeParams) {
+.controller('BlogController', function($scope, $route, $routeParams) {
+	$scope.route = $route;
 	var i;
-    $scope.post = null;
+		$scope.post = null;
 	for(i = 0; i < posts.length; i++){
 		if(posts[i].url==$routeParams.postId){
 			$scope.post = posts[i];
@@ -55,27 +51,33 @@ angular.module('app', ['ngRoute'])
 	$routeProvider
 	.when('/', {
 		templateUrl: 'home.html',
-		controller: 'HomeController'
+		controller: 'HomeController',
+    activetab: ''
 	})
 	.when('/about', {
 		templateUrl: 'about.html',
-		controller: 'HomeController'
+		controller: 'HomeController',
+		activetab: 'about'
 	})
 	.when('/projects', {
 		templateUrl: 'projects.html',
-		controller: 'HomeController'
+		controller: 'HomeController',
+		activetab: 'projects'
 	})
 	.when('/blog', {
 		templateUrl: 'blog.html',
-		controller: 'HomeController'
+		controller: 'HomeController',
+		activetab: 'blog'
 	})
 	.when('/projects/:projectId', {
 		templateUrl: 'project.html',
-		controller: 'ProjectController'
+		controller: 'ProjectController',
+		activetab: 'projects'
 	})
 	.when('/blog/:postId', {
 		templateUrl: 'post.html',
-		controller: 'BlogController'
+		controller: 'BlogController',
+		activetab: 'blog'
 	})
 	.otherwise({
 		redirectTo:'/'

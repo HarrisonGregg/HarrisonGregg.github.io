@@ -1,10 +1,12 @@
 <div class="content" >
-	<div class="x">
-		<a href="#/blog" class="homelink">&#60;</a>
+<!-- <div class="jumbotron">
+	<div class="container">
+		<h1 style="font-size:300%">{{post.title}}</h1>
+		<h2 class="lead">{{post.description}}</h2>
 	</div>
-	<h1>{{post.title}}</h1>
-	<hr>
-
-<div ng-include src="'blog/'+post.url+'.html'" class="contentScrollBox" style="width:98%; margin: 0 auto;"></div>
+</div>
+ -->
+<p style="font-size:300%">{{post.title}}</p>
+<div ng-include src="'blog/'+post.url+'.html'"></div>
 
 </div>
