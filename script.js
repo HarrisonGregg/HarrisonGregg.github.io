@@ -13,8 +13,10 @@ projects = [
 ];
 
 posts = [
-	{title: 'Senior Thesis: Beginning the Journey', url: 'post1',	date:'September 17, 2014', 	datestamp:'2014-09-17', description: "This is the first of what will be weekly updates on my Senior Thesis.  I've decided on my thesis project, and turned in my thesis proposal.  I'm preparing to do market research. This post includes a description of my project, and where I imagine it going."},
-	{title: 'Senior Thesis: Blog, JIRA, and HRRC', 	url: 'post2',	date:'September 24, 2014', 	datestamp:'2014-09-24', description: "This past week, I've set up a basic version of my blog, so I can actually post these updates, I've started setting up JIRA to use for project organization, and I'm just waiting on someone to get back to me about the Human Research Review Committee guidelines I need to follow before I can send out my survey."},
+	{title: 'Senior Thesis: Beginning the Journey', 	url: 'post1',	date:'September 17, 2014', 	datestamp:'2014-09-17', description: "This is the first of what will be weekly updates on my Senior Thesis.  I've decided on my thesis project, and turned in my thesis proposal.  I'm preparing to do market research. This post includes a description of my project, and where I imagine it going."},
+	{title: 'Senior Thesis: Blog, JIRA, and HRRC', 		url: 'post2',	date:'September 24, 2014', 	datestamp:'2014-09-24', description: "This past week, I've set up a basic version of my blog, so I can actually post these updates, I've started setting up JIRA to use for project organization, and I'm just waiting on someone to get back to me about the Human Research Review Committee guidelines I need to follow before I can send out my survey."},
+	{title: 'Senior Thesis: More HRRC, Lean Canvas, and Trello',
+																			url: 'post3',	date:'October 1, 2014', 	datestamp:'2014-10-01', description: "This week, I found out how long the HRRC process can be, I started creating a Lean Canvas, and I decided on the free project management tool, Trello."},
 ];
 
 $(document).ready(function () {
