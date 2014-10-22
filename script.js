@@ -19,6 +19,8 @@ posts = [
 														url: 'post3',	date:'October 1, 2014', 	datestamp:'2014-10-01', description: "This week, I found out how long the HRRC process can be, I started creating a Lean Canvas, and I decided on the free project management tool, Trello."},
 	{title: 'Senior Thesis: Even more HRRC, Lean Canvas, and Trello',
 														url: 'post4',	date:'October 8, 2014', 	datestamp:'2014-10-08', description: "The HRRC process stretches on, I've made small updates to the Lean Canvas, and I've started using Trello."},
+	{title: 'Senior Thesis: Final HRRC, FOLEYTech Summit, and PhoneGap',
+														url: 'post5',	date:'October 22, 2014', 	datestamp:'2014-10-22', description: "The HRRC process seems like it's almost done.  I attended a tech summit on mHealth and information security, and I started learning how to use PhoneGap."},
 ];
 
 $(document).ready(function () {
