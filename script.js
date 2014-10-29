@@ -21,6 +21,8 @@ posts = [
 														url: 'post4',	date:'October 8, 2014', 	datestamp:'2014-10-08', description: "The HRRC process stretches on, I've made small updates to the Lean Canvas, and I've started using Trello."},
 	{title: 'Senior Thesis: Final HRRC, FOLEYTech Summit, and PhoneGap',
 														url: 'post5',	date:'October 22, 2014', 	datestamp:'2014-10-22', description: "The HRRC process seems like it's almost done.  I attended a tech summit on mHealth and information security, and I started learning how to use PhoneGap."},
+	{title: 'Senior Thesis: Survey responses, HRRC Round 2, and Connected Health Symposium',
+														url: 'post6',	date:'October 29, 2014', 	datestamp:'2014-10-29', description: "This past week, I sent out the market survey, sent in the HRRC Proposal for doing User Interface Testing, and I attended the Connected Health Symposium hosted by the Center for Connected Health in Boston."},
 ];
 
 $(document).ready(function () {
