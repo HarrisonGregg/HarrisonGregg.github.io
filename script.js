@@ -23,6 +23,8 @@ posts = [
 														url: 'post5',	date:'October 22, 2014', 	datestamp:'2014-10-22', description: "The HRRC process seems like it's almost done.  I attended a tech summit on mHealth and information security, and I started learning how to use PhoneGap."},
 	{title: 'Senior Thesis: Survey responses, HRRC Round 2, and Connected Health Symposium',
 														url: 'post6',	date:'October 29, 2014', 	datestamp:'2014-10-29', description: "This past week, I sent out the market survey, sent in the HRRC Proposal for doing User Interface Testing, and I attended the Connected Health Symposium hosted by the Center for Connected Health in Boston."},
+	{title: 'Senior Thesis: Thesis Poster, Written Thesis Outline, Survey Responses, and Advice',
+														url: 'post7',	date:'November 5, 2014', 	datestamp:'2014-11-05', description: "Thesis Posters are up! Also, I wrote an outline of the written portion of my thesis, learned why I shouldn't have sent out a survey, and recieved some great advice from DR. Andrey Ostrovsky."},
 ];
 
 $(document).ready(function () {
