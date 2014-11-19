@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+        <link rel="stylesheet" href="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview.css">
+        <link rel="stylesheet" href="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview-pull.css">
+        <link rel="stylesheet" href="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview.css">
+        <link rel="stylesheet" href="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview-pull.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Follow Up</title>
+    </head>
+    <body>
+        <div data-role="page" id="login" >
+            <div data-theme="a" data-role="header" >
+                <h3>
+                    Login
+                </h3>
+            </div>        
+            <div data-role="content">
+                <form>
+                    <input type="text" name="login-username" id="login-username" value="" placeholder="Username">
+                    <input type="password" name="login-password" id="login-password" value="" placeholder="Password">
+                    <a href="#patients" data-role="button" >Login</a>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="page" id="patients" >
+            <div data-theme="a" data-role="header" >
+                <a href="#login" class="ui-btn-left"  data-direction="reverse">Logout</a>                        
+                <a href="#profile" class="ui-btn-right" >My Profile</a>                        
+                <h3>
+                    Patients
+                </h3>
+            </div>   
+            <div data-iscroll-fixed style="margin-top:12px; margin-bottom:12px;">     
+                <form>
+                    <input type="text" name="patient-search" id="patient-search" value="" placeholder="Search">
+                </form>
+            </div>
+            <div data-role="content">
+                <!-- <div style="position:absolute; top:100px; bottom:0px; width:100%;"> -->
+                <div class="scroll-wrapper" data-iscroll style="height:auto;">
+                    <ul id="patientList" data-role="listview" data-split-icon="gear" data-split-theme="d">
+                        <li data-icon="plus"><a href="#newPatient">Add Patient</a></li>
+                        <li><a href="#patient">Jane Doe</a></li>
+                        <li><a href="#patient">John Doe</a></li>
+                        <li><a href="#patient">Joe Schmo</a></li>
+                        <li><a href="#patient">Jane Doe</a></li>
+                        <li><a href="#patient">John Doe</a></li>
+                        <li><a href="#patient">Joe Schmo</a></li>
+                        <li><a href="#patient">Jane Doe</a></li>
+                        <li><a href="#patient">John Doe</a></li>
+                        <li><a href="#patient">Joe Schmo</a></li>
+                        <li><a href="#patient">Jane Doe</a></li>
+                        <li><a href="#patient">John Doe</a></li>
+                        <li><a href="#patient">Joe Schmo</a></li>
+                        <li><a href="#patient">Jane Doe</a></li>
+                        <li><a href="#patient">John Doe</a></li>
+                        <li><a href="#patient">Joe Schmo</a></li>
+                        <li><a href="#patient">Jane Doe</a></li>
+                        <li><a href="#patient">John Doe</a></li>
+                        <li><a href="#patient">Joe Schmo</a></li>
+                        <li><a href="#patient">Jane Doe</a></li>
+                        <li><a href="#patient">John Doe</a></li>
+                        <li><a href="#patient">Joe Schmo</a></li>
+                        <li><a href="#patient">Jane Doe</a></li>
+                        <li><a href="#patient">John Doe</a></li>
+                        <li><a href="#patient">Joe Schmo</a></li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div data-role="page" id="profile" >
+            <div data-theme="a" data-role="header" >
+                <a href="#patients" class="ui-btn-left"  data-direction="reverse">Back</a>                        
+                <h3>
+                    My Profile
+                </h3>
+            </div>        
+            <div data-role="content">
+                <form>
+                    <input type="text" name="profile-name" id="profile-name" value="Dr. Smith" placeholder="Name">
+                    <input type="text" name="profile-title" id="profile-title" value="MD" placeholder="Title">
+                    <input type="text" name="profile-position" id="profile-position" value="Psychiatrist" placeholder="Position">
+                    <a href="#patients" data-role="button" >Add</a>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="page" id="newPatient" >
+            <div data-theme="a" data-role="header" >
+                <a href="#patients" class="ui-btn-left"  data-direction="reverse">Back</a>                        
+                <h3>
+                    Add Patient
+                </h3>
+            </div>        
+            <div data-role="content">
+                <input type="text" name="newPatient-name" id="newPatient-name" value="" placeholder="Name">
+                <input type="text" name="newPatient-email" id="newPatient-email" value="" placeholder="Email Address">
+                <input type="text" name="newPatient-phone" id="newPatient-phone" value="" placeholder="Phone Number">
+                <a href="#patient" data-role="button" >Add</a>
+            </div>
+        </div>
+
+        <div data-role="page" id="patient" >
+            <div data-theme="a" data-role="header" >
+                <a href="#patients" class="ui-btn-left"  data-direction="reverse">Back</a>                      
+                <h3>
+                    John Doe
+                </h3>
+            </div>        
+            <div data-role="content">
+                <div class="scroll-wrapper" data-iscroll>
+                    <ul id="patientList" data-role="listview" data-split-icon="gear" data-split-theme="d">
+                        <li data-role="list-divider">Notes</li>
+                        <li><a>Remember this thing about this patient</a></li>
+                        <li data-icon="plus"><a href="#addNote">Add Note</a></li>
+
+                        <li data-role="list-divider">Questions</li>
+                        <li><a>Daily Sleep Log</a></li>
+                        <li data-icon="plus"><a href="#addQuestions">Assign Questions</a></li>
+
+                        <li data-role="list-divider">Tasks</li>
+                        <li data-icon="check"><a>Read this material about depression</a></li>
+                        <li data-icon="plus"><a href="#addTasks">Assign Tasks</a></li>
+
+                        <li data-role="list-divider">Medication</li>
+                        <li><a>Anxiety meds B</a></li>
+                        <li><a>Depression meds 1</a></li>
+                        <li data-icon="plus"><a href="#addMedication">Add Medication Reminders</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="addNote" >
+            <div data-theme="a" data-role="header" >
+                <a href="#patient" class="ui-btn-left"  data-direction="reverse">Back</a>                        
+                <h3>
+                    Add Note
+                </h3>
+            </div>        
+            <div data-role="content">
+                <input type="text" name="addNote-title" id="addNote-title" value="" placeholder="Title">
+                <textarea name="addNote-note" id="addNote-note" value="" placeholder="Note"> </textarea>
+                <a href="#patient" data-role="button" data-direction="reverse">Add</a>
+            </div>
+        </div>
+
+        <div data-role="page" id="addMedication" >
+            <div data-theme="a" data-role="header" >
+                <a href="#patient" class="ui-btn-left" data-direction="reverse">Back</a>                      
+                <h3>
+                    Add Medications
+                </h3>
+            </div>        
+            <div data-role="content">
+                <div class="scroll-wrapper" data-iscroll>
+                    <ul id="patientList" data-role="listview" data-split-icon="gear" data-split-theme="d">
+                        <li><a href="#patient" data-direction="reverse">Anxiety meds A</a></li>
+                        <li><a href="#patient" data-direction="reverse">Anxiety meds B</a></li>
+                        <li><a href="#patient" data-direction="reverse">Depression meds 1</a></li>
+                        <li><a href="#patient" data-direction="reverse">Depression meds 2</a></li>
+                        <li><a href="#patient" data-direction="reverse">Other meds</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="addQuestions" >
+            <div data-theme="a" data-role="header" >
+                <a href="#patient" class="ui-btn-left" data-direction="reverse">Back</a>                      
+                <h3>
+                    Add Questions
+                </h3>
+            </div>        
+            <div data-role="content">
+                <div class="scroll-wrapper" data-iscroll>
+                    <ul id="patientList" data-role="listview" data-split-icon="gear" data-split-theme="d">
+                        <li><a href="#patient" data-direction="reverse">Daily Sleep Log</a></li>
+                        <li><a href="#patient" data-direction="reverse">Daily Mood Log</a></li>
+                        <li><a href="#patient" data-direction="reverse">2x Daily Mood Log</a></li>
+                        <li><a href="#patient" data-direction="reverse">3x Daily Mood Log</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="addTasks" >
+            <div data-theme="a" data-role="header" >
+                <a href="#patient" class="ui-btn-left" data-direction="reverse">Back</a>                      
+                <h3>
+                    Add Tasks
+                </h3>
+            </div>        
+            <div data-role="content">
+                <div class="scroll-wrapper" data-iscroll>
+                    <ul id="patientList" data-role="listview" data-split-icon="gear" data-split-theme="d">
+                        <li><a href="#patient" data-direction="reverse">Read this material about depression</a></li>
+                        <li><a href="#patient" data-direction="reverse">Read this material about anxiety</a></li>
+                        <li><a href="#patient" data-direction="reverse">Something Else</a></li>
+                        <li><a href="#patient" data-direction="reverse">This other thing</a></li>
+                        <li><a href="#patient" data-direction="reverse">Final stuff</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+        <script src="http://example.gajotres.net/iscrollview/iscroll.js"></script>
+        <script src="http://example.gajotres.net/iscrollview/jquery.mobile.iscrollview.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+            $.mobile.defaultPageTransition = "slide";
+            // $(document).on('pagebeforeshow', '#patient', function(){ 
+            //     $('[data-role="content"]').trigger('create');
+            //     $(".scroll-wrapper").iscrollview("refresh");
+            // });
+            // $(document).on('pagebeforeshow', '#addMedication', function(){ 
+            //     $('[data-role="content"]').trigger('create');
+            //     $(".scroll-wrapper").iscrollview("refresh");
+            // });
+        </script>
+    </body>
+</html>
