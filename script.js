@@ -25,13 +25,15 @@ posts = [
 														url: 'post6',	date:'October 29, 2014', 	datestamp:'2014-10-29', description: "This past week, I sent out the market survey, sent in the HRRC Proposal for doing User Interface Testing, and I attended the Connected Health Symposium hosted by the Center for Connected Health in Boston."},
 	{title: 'Senior Thesis: Thesis Poster, Written Thesis Outline, Survey Responses, and Advice',
 														url: 'post7',	date:'November 5, 2014', 	datestamp:'2014-11-05', description: "Thesis Posters are up! Also, I wrote an outline of the written portion of my thesis, learned why I shouldn't have sent out a survey, and recieved some great advice from DR. Andrey Ostrovsky."},
+	{title: 'Senior Thesis: Lunch with Residents and a Preliminary User Interface',
+														url: 'post8',	date:'November 19, 2014', 	datestamp:'2014-11-19', description: "I had a very informative lunch meeting with some psychiatry residents, and I've created a user interface that I'd like to test with them."},
 ];
 
 $(document).ready(function () {
-		$("#navbar li a").click(function(event) {
-				// check if window is small enough so dropdown is created
-				$("#nav-collapse").removeClass("in").addClass("collapse");
-		});
+	$("#navbar li a").click(function(event) {
+		// check if window is small enough so dropdown is created
+		$("#nav-collapse").removeClass("in").addClass("collapse");
+	});
 });
 
 angular.module('app', ['ngRoute'])
