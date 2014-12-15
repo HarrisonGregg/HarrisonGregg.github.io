@@ -1,3 +1,20 @@
+meSpeak.loadConfig("mespeak_config.json");
+meSpeak.loadVoice('en.json');
+
+// recognition.start();
+
+function recognize(success){
+	if(success){
+		var recognition = new webkitSpeechRecognition();
+		recognition.onresult = function(event) { 
+		  	document.getElementById("text").value = event.results[0][0].transcript;
+		  	onSubmit();
+		}
+		recognition.start();
+		console.log("listening...");
+	}
+}
+
 function onSubmit(){
 	var xmlHttp = null;
 
@@ -35,4 +52,14 @@ function onSubmit(){
 	if(responseObject.m){
 		document.getElementById("meal").value = responseObject.m;
 	}
+	if(responseObject.state < 6){
+		meSpeak.speak(responseObject.response, {}, recognize);
+	} else {
+		meSpeak.speak(responseObject.response);
+	}
 }
+
+
+onSubmit()
+
+
