@@ -9,6 +9,8 @@ projects = [
 	{title: 'Synthepyzer', 			image:'synthepyzer.png', 		color: 'rgb(100, 47, 53)', 	url: 'synthepyzer', 	body: 'This is a Python program that I made with my friends for HackPrinceton Fall 2013.'},
 	{title: 'Mr. Burger', 			image:'mr-burger.png', 			color: 'rgb(200, 100, 0)', 	url: 'mr-burger', 		body: 'This is a silly flash game that I made with my friends.'},
 	{title: 'Corona SDK Games', 	image:'corona.png', 			color: 'rgb(100, 100, 100)',url: 'corona', 			body: 'My first real mobile app programming was done using the Corona SDK.'},
+	{title: 'Dining Hall Voice Interface', 	
+									image:'srcdhall.png', 			color: 'rgb(150, 150, 150)',url: 'srcdhall', 		body: 'A spoken dialogue system to provide information about the food and hours of the Simon\'s Rock Dining Hall.'},
 	{title: 'Senior Thesis',		image:'bcsr.jpg', 				color: 'rgb(100, 100, 100)',url: 'senior-thesis', 	body: 'For my Senior Thesis at Bard College at Simon\'s Rock, I will be starting a business.'}
 ];
 
