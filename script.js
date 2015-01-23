@@ -1,6 +1,6 @@
 projects = [
-	{title: 'Spectracer', 			image:'spectracer.png', 		color: 'rgb(100, 47, 53)', url: 'spectracer',		body: 'This is an android app I made.'},
-	{title: 'Spectracer in Unity', 	image:'spectracer-unity.png', 	color: 'rgb(100, 47, 53)', url: 'spectracer-unity', body: 'I started to remake Spectracer using Unity3D.'},
+	{title: 'Spectracer', 			image:'spectracer.png', 		color: 'rgb(100, 47, 53)', 	url: 'spectracer',		body: 'This is an android app I made.'},
+	{title: 'Spectracer in Unity', 	image:'spectracer-unity.png', 	color: 'rgb(100, 47, 53)', 	url: 'spectracer-unity',body: 'I started to remake Spectracer using Unity3D.'},
 	{title: 'This Website', 		image:'website.png', 			color: 'rgb(100, 47, 53)', 	url: 'this-site',		body: 'I made this website using AngualarJS.'},
 	{title: 'Get Off My Lawn', 		image:'get-off-my-lawn.png', 	color: 'rgb(30, 100, 53)', 	url: 'get-off-my-lawn',	body: 'This is a mobile game that I started making in Unity3D.'},
 	{title: 'Neural Net', 			image:'neural-nets.png', 		color: 'rgb(100, 47, 53)', 	url: 'neural-nets',		body: 'These are the things that I did with a neural net for my Artificial Intelligence class.'},
@@ -11,6 +11,8 @@ projects = [
 	{title: 'Corona SDK Games', 	image:'corona.png', 			color: 'rgb(100, 100, 100)',url: 'corona', 			body: 'My first real mobile app programming was done using the Corona SDK.'},
 	{title: 'Dining Hall Voice Interface', 	
 									image:'srcdhall.png', 			color: 'rgb(150, 150, 150)',url: 'srcdhall', 		body: 'A spoken dialogue system to provide information about the food and hours of the Simon\'s Rock Dining Hall.'},
+	{title: '3SAT NP Reduction', 	
+									image:'buttonsandscissors.png', color: 'rgb(0, 150, 200)',	url: 'button3sat', 		body: 'A webapp to reduce a 3SAT problem to a game of Buttons and Scissors.'},
 	{title: 'Senior Thesis',		image:'bcsr.jpg', 				color: 'rgb(100, 100, 100)',url: 'senior-thesis', 	body: 'For my Senior Thesis at Bard College at Simon\'s Rock, I will be starting a business.'}
 ];
 
