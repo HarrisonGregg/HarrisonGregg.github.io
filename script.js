@@ -3,7 +3,7 @@ projects = [
 	{title: 'Spectracer in Unity', 	image:'spectracer-unity.png', 	color: 'rgb(100, 47, 53)', url: 'spectracer-unity', body: 'I started to remake Spectracer using Unity3D.'},
 	{title: 'This Website', 		image:'website.png', 			color: 'rgb(100, 47, 53)', 	url: 'this-site',		body: 'I made this website using AngualarJS.'},
 	{title: 'Get Off My Lawn', 		image:'get-off-my-lawn.png', 	color: 'rgb(30, 100, 53)', 	url: 'get-off-my-lawn',	body: 'This is a mobile game that I started making in Unity3D.'},
-	{title: 'Neural Net', 			image:'neural-nets.png', 		color: 'rgb(100, 47, 53)', 	url: 'neural-net',		body: 'These are the things that I did with a neural net for my Artificial Intelligence class.'},
+	{title: 'Neural Net', 			image:'neural-nets.png', 		color: 'rgb(100, 47, 53)', 	url: 'neural-nets',		body: 'These are the things that I did with a neural net for my Artificial Intelligence class.'},
 	{title: 'Curve Editor', 		image:'curve-editor.png', 		color: 'rgb(30, 47, 100)', 	url: 'curve-editor',	body: 'This is a project for my Computer Graphics class.'},
 	{title: 'Ray Tracer', 			image:'ray-tracer2.png', 		color: 'rgb(100, 30, 100)',	url: 'ray-tracer', 		body: 'This is a project for my Computer Graphics class.'},
 	{title: 'Synthepyzer', 			image:'synthepyzer.png', 		color: 'rgb(100, 47, 53)', 	url: 'synthepyzer', 	body: 'This is a Python program that I made with my friends for HackPrinceton Fall 2013.'},

@@ -42,3 +42,7 @@ p {
 .searchbox{
   color:black
 }
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
