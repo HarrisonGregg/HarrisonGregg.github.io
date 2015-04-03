@@ -31,6 +31,8 @@ posts = [
 														url: 'post7',	date:'November 5, 2014', 	datestamp:'2014-11-05', description: "Thesis Posters are up! Also, I wrote an outline of the written portion of my thesis, learned why I shouldn't have sent out a survey, and recieved some great advice from DR. Andrey Ostrovsky."},
 	{title: 'Senior Thesis: Lunch with Residents and a Preliminary User Interface',
 														url: 'post8',	date:'November 19, 2014', 	datestamp:'2014-11-19', description: "I had a very informative lunch meeting with some psychiatry residents, and I've created a user interface that I'd like to test with them."},
+	{title: 'Senior Thesis: Submitted FollowUp Treatment Manager to Google Play Store!',
+														url: 'post9',	date:'April 03, 2015', 	datestamp:'2015-04-03', description: "I got bored of updating this blog, but I've been working hard and I've submitted my app to the Google Play Store!"},
 ];
 
 $(document).ready(function () {
