@@ -24,6 +24,12 @@ harrisongregg.com and it's associated products may collect statistics about the 
 COOKIES
 A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns. harrisongregg.com uses cookies to help identify and track visitors, their usage of harrisongregg.com, and their website access preferences. harrisongregg.com visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using harrisongregg.com, with the drawback that certain features of harrisongregg.com may not function properly without the aid of cookies.
 
+MEDICAL DATA STORAGE
+FollowUp Treatment Manager collects medically sensitive data, which is stored locally on the user's mobile device.  No medically sensitive data is collected or stored by the FollowUp Treatment Manager or harrisongregg.com.
+
+LOCAL STORAGE
+FollowUp Treatment Manager, in the Google Play Store, may store user data locally on the user's mobile device.  This data will not be stored on any web servers controlled or operated by harrisongregg.com.  It is the users responsibility to prevent this data from being copied or transferred to another storage location.
+
 BUSINESS TRANSFERS
 If harrisongregg.com or any of its products, were acquired, or if harrisongregg.com goes out of business or enters bankruptcy, user information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of harrisongregg.com may continue to use your personal information as set forth in this policy.
 
