@@ -1,0 +1,148 @@
+% LaTeX resume using res.cls
+\documentclass{res}
+% \usepackage{geometry}
+% \geometry{
+%  left=1in,
+%  right=1in,
+%  top=1in,
+%  bottom=1in
+% }
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font  
+\setlength{\topmargin}{-0.8in}  % Start text higher on the page 
+\setlength{\textheight}{10.2in}  % increase textheight to fit more on a page
+\setlength{\headsep}{0.2in}     % space between header and text
+\setlength{\headheight}{12pt}   % make room for header
+% \setlength{\parsep}{0mm}
+\usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
+\newsectionwidth{2mm}
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\lhead{\hspace*{-\sectionwidth}Harrison Gregg} % force lhead all the way left
+\rhead{Page \thepage}  % put page number at right
+\cfoot{}  % the footer is empty
+\pagestyle{fancy} % set pagestyle for the document
+
+\begin{document} 
+\thispagestyle{empty} % this page does not have a header
+\name{\LARGE HARRISON GREGG}
+
+% \large
+\begin{resume}
+\vspace{0.1in}
+% \moveleft.5\sectionwidth\centerline{84 Alford Road, Great Barrington, MA 01230}  
+\moveleft.5\sectionwidth\centerline{413 212-8729; hcg28@cornell.edu}  
+\moveleft.5\sectionwidth\centerline{linkedin.com/in/harrisongregg; github.com/HarrisonGregg; harrisongregg.com}  
+
+\section{EDUCATION}
+% \vspace{0.1in} 
+ 	{\bf M.S in Information Systems, Connective Media} \hfill Class of 2017\\
+ 	Jacobs Technion-Cornell Institute, New York City\\
+ 	{\bf Course topics:} Computer Science, Entrepreneurship, Business, Psychology, and Sociology in the context of communication, information, and media
+	% \hangindent=5mm
+	% \hangafter=1
+\vspace{2mm}\\
+    {\bf B.A. Computer Science, Math} GPA: 3.92 \hfill Class of 2015\\
+    Bard College at Simon's Rock, Great Barrington, MA\\
+  {\bf Additional Coursework:}
+Physics, seminar series, philosophy, chorus, and beginning German
+\vspace{2mm}\\
+    {\bf Aquincum Institute of Technology}, Budapest, Hungary \hfill Spring 2014\\  
+  {\bf Distinctions:}
+    5.0/5.0 GPA taking 30 credits, 1\textsuperscript{st} rank in class\\
+  {\bf Course topics:}
+  	Theoretical and practical computer science, discrete math, entrepreneurship, and design
+
+\section{PROJECTS} 
+{\bf Simon's Rock Senior Thesis Project - FollowUp Mental Health Treatment Manager}
+\begin{itemize}
+\item Mobile app for improving care effectiveness with medication reminders and progress tracking
+\item Interface developed with PhoneGap using HTML, JavaScript, AngularJS, and Bootstrap UI
+\end{itemize}
+\vspace*{-\baselineskip}\leavevmode
+{\bf Spoken Dialogue System for Campus Dining Services}
+\begin{itemize}
+\item Voice operated online interface to provide information on dining hall food and hours 
+\item HTML scraping, state logic, text classifiers, and Flask server implemented in Python
+\end{itemize}
+\vspace*{-\baselineskip}\leavevmode
+{\bf Buttons andScissors NP-Completeness Conference Paper}
+\begin{itemize}
+\item Proved NP-completeness of Buttons and Scissors mobile game through reduction to 3SAT
+\item Implemented integer program reduction able to solve all levels of the game
+\end{itemize}
+\vspace*{-\baselineskip}\leavevmode
+{\bf UniBreeze-University Event Planning and Search Network}
+\begin{itemize}
+\item Designed and refined interface with user interface testing for User Interface Design class
+\item Developed business plan and marketing materials for IT Entrepreneurship class
+\end{itemize}
+
+\section{EXPERIENCE} 
+{\bf Freelance Front End Developer} \hfill January 2015-Present
+\begin{itemize}
+\item Developing customer portal for corporate wellness service contractor, \textit{Wellness Concepts}
+\item Developed Tibetan map interface using SVGs and JQuery for \textit{Treasury of Lives}
+\end{itemize}
+\vspace*{-\baselineskip}\leavevmode
+{\bf Software Engineering Intern} \hfill Summer 2014\\
+General Electric Software, San Ramon, CA
+\begin{itemize}
+\item Led server performance testing initiative for the Transportation Software department, developing and deploying HP LoadRunner scripts for multiple projects
+\item Performed front end development of internal webappusing AngularJS and JQuery
+\item Tested and demonstrated technologies such as Apache Solr for potential use in system
+\end{itemize}
+\vspace*{-\baselineskip}\leavevmode
+{\bf Biophysics Research Assistant} \hfill Summer 2012\\
+Dr. Eric M. Kramer, Bard College at Simon's Rock
+\begin{itemize}
+\item Created a computer program to simulate hormone diffusion in cell bodies of varying shapes
+\end{itemize}
+\vspace*{-\baselineskip}\leavevmode
+{\bf Additional Experience:} \hfill 2012-present
+\begin{itemize}
+\item Providing student and faculty tech support and performing network maintenance on campus
+\item Tutoring classes and individuals in Math, Physics, and Computer Science
+\end{itemize}
+ 
+\section{PROFESSIONAL DEVELOPMENT} 
+{\bf Founding Member,} SRC Coders Club, Bard College at Simon's Rock: Organized trips to programming competitions and hackathons; Worked on a variety of group projects, built a 3D printer\\
+{\bf Technical Skills:} 
+\begin{itemize}
+\item Languages: C++, C\#, CSS, HTML, Java, JavaScript, \LaTeX, Lua, Python
+\item Frameworks: AngularJS, Bootstrap, Flask, JQuery, NodeJS,React
+\item Tools: Android SDK, Git, HP LoadRunner, MongoDB, OpenGL,Parse, PhoneGap
+\item Other Skills: Agile Development, Unix, Arch Linux, Computer Hardware
+\end{itemize}
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
