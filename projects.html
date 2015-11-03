@@ -1,18 +1,20 @@
 <div class="content" >
-	<div class="jumbotron">
-		<div class="container">
-				<h1 class="h1">Projects</h1>
-			<h2 class="lead">This page includes a number of projects that I've worked on, alone, with friends, or in class.</h2>
-		</div>
+	<div class="search">
+		<p>Search: <input type="text" ng-model="nameText" class="searchbox"/></p>
 	</div>
+	<h1>Projects</h1>
+	<!-- <div class="jumbotron"> -->
+		<!-- <div class="container"> -->
+			<h2 class="lead">This page includes a number of projects that I've worked on, alone, with friends, or in class.</h2>
+		<!-- </div> -->
+	<!-- </div> -->
 <!-- <h1>Projects</h1>
 	<hr> -->
-	<p>Search: <input type="text" ng-model="nameText" class="searchbox"/></p>
 	<div>
-
-	<div data-ng-repeat="project in projects | filter:nameText | orderBy:'title'">
-		<a href="#/projects/{{project.url}}">
-				<div class="project" style="background-color:{{project.color}}">
+		<div data-ng-repeat="group in projects">
+			<h4>{{group.title}}</h4>
+			<a class="project" data-ng-repeat="project in group.projects | filter:nameText" ng-href="#/projects/{{project.url}}">
+				<div style="background-color:{{project.color}}">
 					<div class="project-text">
 						<p>{{project.title}}</p>
 					</div>

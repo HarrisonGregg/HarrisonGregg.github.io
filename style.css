@@ -5,16 +5,24 @@ body {
 p {
   color: white;
 }
-.jumbotron .h1 {
-  font-size: 350%;
+h1, h2, h4 {
+  color: #EEEEEE;
 }
-.project{
-    width:120px;
-    height:165px;
+.jumbotron {
+  padding: 8px 10px !important;
+}
+.project {
+  display: inline-block;
+}
+.project > div{
+    width:130px;
+    /*height:165px;*/
     text-align: center;
     margin:20px 17px 17px 20px;
     /*background-color: rgb(100, 47, 53); */
     float:left;
+    padding: 5px;
+    border-radius: 5px;
 }
 .project-text {
     height:40px;
@@ -39,10 +47,18 @@ p {
     margin-bottom:0px;
     padding:0px;
 }
+.search {
+  float: right;
+}
 .searchbox{
-  color:black
+  color:black;
+  border-radius: 5px;
+  padding: 5px;
 }
 .center{
   margin-left: auto;
   margin-right: auto;
+}
+.project-page .contentScrollBox{
+  max-width: 400px;
 }

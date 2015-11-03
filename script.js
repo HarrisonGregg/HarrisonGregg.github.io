@@ -1,19 +1,37 @@
 projects = [
-	{title: 'Spectracer', 			image:'spectracer.png', 		color: 'rgb(100, 47, 53)', 	url: 'spectracer',		body: 'This is an android app I made.'},
-	{title: 'Spectracer in Unity', 	image:'spectracer-unity.png', 	color: 'rgb(100, 47, 53)', 	url: 'spectracer-unity',body: 'I started to remake Spectracer using Unity3D.'},
-	{title: 'This Website', 		image:'website.png', 			color: 'rgb(100, 47, 53)', 	url: 'this-site',		body: 'I made this website using AngualarJS.'},
-	{title: 'Get Off My Lawn', 		image:'get-off-my-lawn.png', 	color: 'rgb(30, 100, 53)', 	url: 'get-off-my-lawn',	body: 'This is a mobile game that I started making in Unity3D.'},
-	{title: 'Neural Net', 			image:'neural-nets.png', 		color: 'rgb(100, 47, 53)', 	url: 'neural-nets',		body: 'These are the things that I did with a neural net for my Artificial Intelligence class.'},
-	{title: 'Curve Editor', 		image:'curve-editor.png', 		color: 'rgb(30, 47, 100)', 	url: 'curve-editor',	body: 'This is a project for my Computer Graphics class.'},
-	{title: 'Ray Tracer', 			image:'ray-tracer2.png', 		color: 'rgb(100, 30, 100)',	url: 'ray-tracer', 		body: 'This is a project for my Computer Graphics class.'},
-	{title: 'Synthepyzer', 			image:'synthepyzer.png', 		color: 'rgb(100, 47, 53)', 	url: 'synthepyzer', 	body: 'This is a Python program that I made with my friends for HackPrinceton Fall 2013.'},
-	{title: 'Mr. Burger', 			image:'mr-burger.png', 			color: 'rgb(200, 100, 0)', 	url: 'mr-burger', 		body: 'This is a silly flash game that I made with my friends.'},
-	{title: 'Corona SDK Games', 	image:'corona.png', 			color: 'rgb(100, 100, 100)',url: 'corona', 			body: 'My first real mobile app programming was done using the Corona SDK.'},
-	{title: 'Dining Hall Voice Interface', 	
-									image:'srcdhall.png', 			color: 'rgb(150, 150, 150)',url: 'srcdhall', 		body: 'A spoken dialogue system to provide information about the food and hours of the Simon\'s Rock Dining Hall.'},
-	{title: '3SAT NP Reduction', 	
-									image:'buttonsandscissors.png', color: 'rgb(0, 150, 200)',	url: 'button3sat', 		body: 'A webapp to reduce a 3SAT problem to a game of Buttons and Scissors.'},
-	{title: 'Senior Thesis',		image:'bcsr.jpg', 				color: 'rgb(100, 100, 100)',url: 'senior-thesis', 	body: 'For my Senior Thesis at Bard College at Simon\'s Rock, I will be starting a business.'}
+	{title: 'Current Projects', projects:
+		[
+			{title: 'This Website', 		image:'website.png', 			color: 'rgb(100, 47, 53)', 	url: 'this-site',		body: 'I made this website using AngualarJS.'},
+			{title: 'Coopify', 				image:'coopify.png', 			color: 'rgb(252, 87, 0)', 	url: 'coopify',			body: 'A project with The Robin Hood Foundation for Company Challenges at Cornell Tech.'},
+			{title: 'Blockchain Gambling', 	image:'blockleague.png', 		color: '#73A600', 			url: 'blockleague',		body: 'A project for implementing fantasy sports with the blockchain.'},
+		]
+	},
+	{title: "Simon's Rock", projects:
+		[
+			{title: 'Senior Thesis',		image:'bcsr.jpg', 				color: 'rgb(100, 100, 100)',url: 'senior-thesis', 	body: 'For my Senior Thesis at Bard College at Simon\'s Rock, I will be starting a business.'},
+			{title: '3SAT NP Reduction', 	
+											image:'buttonsandscissors.png', color: 'rgb(0, 150, 200)',	url: 'button3sat', 		body: 'A webapp to reduce a 3SAT problem to a game of Buttons and Scissors.'},
+			{title: 'Neural Net', 			image:'neural-nets.png', 		color: 'rgb(100, 47, 53)', 	url: 'neural-nets',		body: 'These are the things that I did with a neural net for my Artificial Intelligence class.'},
+			{title: 'Dining Hall Voice Interface', 	
+											image:'srcdhall.png', 			color: 'rgb(150, 150, 150)',url: 'srcdhall', 		body: 'A spoken dialogue system to provide information about the food and hours of the Simon\'s Rock Dining Hall.'},
+		]
+	},
+	{title: 'AIT Budapest', projects:
+		[
+			{title: 'Spectracer', 			image:'spectracer.png', 		color: 'rgb(100, 47, 53)', 	url: 'spectracer',		body: 'This is an android app I made.'},
+			{title: 'Curve Editor', 		image:'curve-editor.png', 		color: 'rgb(30, 47, 100)', 	url: 'curve-editor',	body: 'This is a project for my Computer Graphics class.'},
+			{title: 'Ray Tracer', 			image:'ray-tracer2.png', 		color: 'rgb(100, 30, 100)',	url: 'ray-tracer', 		body: 'This is a project for my Computer Graphics class.'},
+		],
+	},
+	{title: 'Other Projects', projects:
+		[
+			{title: 'Synthepyzer', 			image:'synthepyzer.png', 		color: 'rgb(100, 47, 53)', 	url: 'synthepyzer', 	body: 'This is a Python program that I made with my friends for HackPrinceton Fall 2013.'},
+			{title: 'Mr. Burger', 			image:'mr-burger.png', 			color: 'rgb(200, 100, 0)', 	url: 'mr-burger', 		body: 'This is a silly flash game that I made with my friends.'},
+			{title: 'Get Off My Lawn', 		image:'get-off-my-lawn.png', 	color: 'rgb(30, 100, 53)', 	url: 'get-off-my-lawn',	body: 'This is a mobile game that I started making in Unity3D.'},
+			{title: 'Corona SDK Games', 	image:'corona.png', 			color: 'rgb(100, 100, 100)',url: 'corona', 			body: 'My first real mobile app programming was done using the Corona SDK.'},
+			{title: 'Spectracer in Unity', 	image:'spectracer-unity.png', 	color: 'rgb(100, 47, 53)', 	url: 'spectracer-unity',body: 'I started to remake Spectracer using Unity3D.'},
+		]
+	},
 ];
 
 posts = [
@@ -52,11 +70,15 @@ angular.module('app', ['ngRoute'])
 
 .controller('ProjectController', function($scope, $route, $routeParams) {
 	$scope.route = $route;
+	$scope.project = null;
+
 	var i;
-		$scope.project = null;
 	for(i = 0; i < projects.length; i++){
-		if(projects[i].url==$routeParams.projectId){
-			$scope.project = projects[i];
+		var j;
+		for(j = 0; j < projects[i].projects.length; j++){
+			if(projects[i].projects[j].url==$routeParams.projectId){
+				$scope.project = projects[i].projects[j];
+			}
 		}
 	}
 })
